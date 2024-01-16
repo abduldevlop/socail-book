@@ -1,0 +1,40 @@
+.left-side-bar {
+  .links {
+    border-bottom: 1px solid #ccc;
+    width: fit-content;
+    padding-bottom: 20px;
+    a {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 30px;
+      width: fit-content;
+      text-decoration: none;
+      color: #626262;
+    }
+    p {
+      font-size: 15px;
+      color: #1876f2;
+    }
+  }
+
+  .shortcut-links {
+    p {
+      padding: 10px 0;
+      color: #5a5a5a;
+      font-size: 14px;
+    }
+    a {
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+      gap: 10px;
+      margin: 10px;
+      img {
+        width: 50px;
+        height: 50px;
+        border-radius: 10px;
+      }
+    }
+  }
+}

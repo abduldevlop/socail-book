@@ -1,0 +1,109 @@
+.right-bar {
+  .card {
+    border-radius: 10px;
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+
+    .card-title {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      border-radius: 4px;
+      h4 {
+        font-weight: 500;
+        font-size: 16px;
+      }
+      a {
+        color: #1876f2;
+        font-size: 12px;
+      }
+    }
+
+    .event {
+      display: flex;
+      font-size: 14px;
+      margin-bottom: 20px;
+      padding: 10px;
+      .left-event {
+        height: 65px;
+        width: 65px;
+        margin-right: 15px;
+        padding-top: 10px;
+        text-align: center;
+        position: relative;
+        overflow: hidden;
+        border-radius: 10px;
+
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+        span {
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          width: 100%;
+          background-color: #1876f2;
+          color: #ffff;
+          font-size: 10px;
+          padding: 4px 0;
+        }
+      }
+      .right-event {
+        h4 {
+          font-weight: 500;
+        }
+        p {
+          font-size: 12px;
+          color: gray;
+        }
+        a {
+          font-size: 12px;
+          color: #1876f2;
+        }
+        .location {
+          display: flex;
+          align-items: center;
+          padding: 5px 0;
+        }
+      }
+    }
+
+    .ads-image {
+      margin-bottom: 20px;
+      margin-top: 10px;
+      width: 100%;
+      border-radius: 4px;
+    }
+
+    .online-users {
+      margin-top: 20px;
+      .online-user {
+        display: flex;
+        gap: 20px;
+        margin-bottom: 20px;
+        img {
+          width: 50px;
+          border-radius: 50px;
+          cursor: pointer;
+        }
+
+        .online {
+          position: relative;
+        }
+        .online::after {
+          content: "";
+          width: 15px;
+          height: 15px;
+          border: 2px solid #fff;
+          border-radius: 50px;
+          background-color: #41db51;
+
+          position: absolute;
+          top: 0;
+          right: 0;
+        }
+      }
+    }
+  }
+}
