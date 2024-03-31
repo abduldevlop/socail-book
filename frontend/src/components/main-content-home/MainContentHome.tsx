@@ -1,13 +1,5 @@
 import { Link } from "react-router-dom";
-import {
-  member1,
-  member2,
-  member3,
-  member4,
-  profilePic,
-  status1,
-  upload,
-} from "../../assets";
+import { member1, member2, member3, profilePic, upload } from "../../assets";
 import "./MainContentHome.scss";
 
 const MainContentHome = () => {
