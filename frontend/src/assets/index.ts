@@ -1,5 +1,5 @@
 import logo from "./logo.png";
-import logo2 from "./logo2.png";
+import logo2 from "./logo-2.png";
 
 import member1 from "./member-1.png";
 import member2 from "./member-2.png";

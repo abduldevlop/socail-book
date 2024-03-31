@@ -37,7 +37,7 @@ const MainContentHome = () => {
           </div>
         </div>
         <div className="post-input-container">
-          <textarea rows="3" placeholder="What's on your mind jhon?"></textarea>
+          <textarea rows={2} placeholder="What's on your mind jhon?"></textarea>
           <div className="addpost-links">
             <Link to={"/"}></Link>
           </div>
